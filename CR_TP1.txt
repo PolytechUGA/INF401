@@ -2,4 +2,52 @@
 
 1.1.1) Il faut modifier les 5e et 6e valeurs en 0xFF. 
 
-test.
+
+
+1 + 2 + 32 + 64 + 128 = 227 
+227/16 = 14,1875
+
+227 = 14 * 16 + 3
+227 = 224 + 3 = 0xE3  = 1100 0111
+
+On sait que 227 = 14*16 + 3
+On à donc  14 "seizaine" et 3 unitée ce qui donne 0xE3
+
+16 + 64 = 80 
+80 = 5 * 16 = 0x50 = 00001010
+
+On sait que 80 = 5 * 16
+On à donc 5 "seizaine" et 0 unitée ce qui donne 0x50
+
+
+
+1.2.1) 
+Nedit et more renvoient une erreur 
+less et cat permettent d'ouvrir le fichier mais celui-ci est illisible
+
+
+On sait que 1 octet = 8 bits = 2 chiffres hexadécimaux
+
+on a 16 pair de chiffres hexadécimaux.
+
+On a donc 16 octets donc 128 bits donc 4 mots de 32 bits.
+
+
+Charlot est rangé aux adresses : 00000070 et 00000080
+
+
+La chaine NN est présente mais se trouve tout en bas du fichier.
+
+
+1.3)
+Les différences entre prog.c et prog.var1.c sont #10 et #17
+Les différences entre prog.c et prog.var2.c sont ADD et ADDS
+Les différences entre prog.c et prog.var3.c sont R0 et R3
+
+
+1.4.1) Les deux segments sont jaunes et rouges 
+avec les codes :
+    - Rouge : ff 00 00
+    - Jaune : f0 f0 00
+
+Modifier les a en s ne changent pas l'image.
